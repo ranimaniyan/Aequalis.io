@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="1081px" viewBox="0 0 124 1081" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>group_28</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home_page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-28">
+            <rect id="Rectangle-35" fill="#FFFFFF" x="0" y="0" width="124" height="1080"></rect>
+            <g id="Group-4-Copy-8" transform="translate(62.000000, 1049.500000) scale(-1, 1) translate(-62.000000, -1049.500000) translate(0.000000, 1018.000000)">
+                <g id="Group-24">
+                    <polygon id="Triangle" fill="#486BFF" points="42.38069 62.2665717 124 0 124 62.2665717"></polygon>
+                    <polygon id="Triangle" fill="#03CAFF" transform="translate(68.335766, 48.132000) rotate(-180.000000) translate(-68.335766, -48.132000) " points="52.9489051 33.768 83.7226277 33.768 83.7226277 62.496"></polygon>
+                    <polygon id="Triangle" fill="#486BFF" transform="translate(35.299270, 48.132000) scale(-1, 1) rotate(-180.000000) translate(-35.299270, -48.132000) " points="17.1970803 33.768 53.4014599 33.768 53.4014599 62.496"></polygon>
+                    <polygon id="Triangle-Copy" fill="#03CAFF" points="30.2957982 62.5354552 16.2997035 62.5354552 16.2997035 47.9646084"></polygon>
+                    <polygon id="Triangle-Copy-2" fill="#486BFF" points="1.8189894e-12 62.4223667 16.3539732 47.88 16.3539732 62.4223667"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

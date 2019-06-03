@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>india_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="256" cy="256" r="256"></circle>
+    </defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="india-(2)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill-rule="nonzero">
+                <rect id="Rectangle-path" fill="#F5852B" x="0" y="0.279" width="512" height="170.48"></rect>
+                <rect id="Rectangle-path" fill="#187A00" x="0" y="341.241" width="512" height="170.48"></rect>
+                <rect id="Rectangle-path" fill="#F5F5F5" x="0" y="170.761" width="512" height="170.48"></rect>
+                <g id="Group" transform="translate(197.000000, 197.000000)" fill="#41479B">
+                    <path d="M59,117.451 C26.771,117.451 0.552,91.232 0.552,59.003 C0.552,26.774 26.771,0.555 59,0.555 C91.229,0.555 117.448,26.774 117.448,59.003 C117.448,91.232 91.229,117.451 59,117.451 Z M59,11.429 C32.765,11.429 11.426,32.768 11.426,59.003 C11.426,85.238 32.765,106.577 59,106.577 C85.235,106.577 106.574,85.238 106.574,59.003 C106.574,32.768 85.235,11.429 59,11.429 Z" id="Shape"></path>
+                    <circle id="Oval" cx="59" cy="59.001" r="6.626"></circle>
+                    <polygon id="Shape" points="59 59.997 42.161 61.697 5.989 59.997 5.989 58.009 42.161 56.309 59 58.009"></polygon>
+                    <polygon id="Shape" points="59 59.997 75.839 61.697 112.011 59.997 112.011 58.009 75.839 56.309 59 58.009"></polygon>
+                    <polygon id="Shape" points="58.006 59.003 56.306 42.164 58.006 5.992 59.994 5.992 61.694 42.164 59.994 59.003"></polygon>
+                    <polygon id="Shape" points="58.006 59.003 56.306 75.842 58.006 112.014 59.994 112.014 61.694 75.842 59.994 59.003"></polygon>
+                    <polygon id="Shape" points="58.297 59.706 45.188 49.001 20.813 22.221 22.218 20.816 48.998 45.191 59.703 58.3"></polygon>
+                    <polygon id="Shape" points="58.297 59.706 69.002 72.815 95.782 97.19 97.187 95.785 72.812 69.005 59.703 58.3"></polygon>
+                    <polygon id="Shape" points="58.297 58.3 69.002 45.191 95.782 20.816 97.187 22.221 72.812 49.001 59.703 59.706"></polygon>
+                    <polygon id="Shape" points="58.297 58.3 45.188 69.005 20.813 95.785 22.218 97.19 48.998 72.815 59.703 59.706"></polygon>
+                    <polygon id="Shape" points="59.38 59.921 44.474 67.936 10.404 80.208 9.644 78.371 42.412 62.958 58.62 58.085"></polygon>
+                    <polygon id="Shape" points="59.38 59.921 75.588 55.048 108.356 39.635 107.596 37.798 73.526 50.07 58.62 58.085"></polygon>
+                    <polygon id="Shape" points="58.082 59.383 50.067 44.477 37.795 10.407 39.632 9.647 55.045 42.415 59.918 58.623"></polygon>
+                    <polygon id="Shape" points="58.082 59.383 62.955 75.591 78.368 108.359 80.205 107.599 67.933 73.529 59.918 58.623"></polygon>
+                    <polygon id="Shape" points="58.62 59.921 42.412 55.048 9.644 39.635 10.404 37.798 44.474 50.07 59.38 58.085"></polygon>
+                    <polygon id="Shape" points="58.62 59.921 73.526 67.936 107.596 80.208 108.356 78.371 75.588 62.958 59.38 58.085"></polygon>
+                    <polygon id="Shape" points="58.082 58.623 62.955 42.415 78.368 9.647 80.205 10.407 67.933 44.477 59.918 59.383"></polygon>
+                    <polygon id="Shape" points="58.082 58.623 50.067 73.529 37.795 107.599 39.632 108.359 55.045 75.591 59.918 59.383"></polygon>
+                </g>
+                <circle id="Oval" fill="#F5F5F5" cx="256" cy="256.001" r="7.257"></circle>
+                <circle id="Oval" fill="#41479B" cx="256" cy="256.001" r="5.359"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

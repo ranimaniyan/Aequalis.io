@@ -1,0 +1,13 @@
+.careers{
+  height: 100vh;
+  background-image: url('/img/sprites/svg-sprite.svg#carear-bg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  &-right{
+    position: absolute;
+    width: 50%;
+    right: 5%;
+    bottom: -40px;
+  }
+}

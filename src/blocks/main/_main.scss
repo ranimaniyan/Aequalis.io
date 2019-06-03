@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%
+}
+
+// ---------- SCROLLING STYLES ---------- //
+
+$panelcount: 11; // set # of panels/sections here
+
+.wrapper{
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  perspective: 1000 !important;
+  padding-left: 100px;
+}
+
+.section {
+  & {
+    height: 100vh;
+    width: calc( 100% / #{$panelcount} );
+    //width: 100%;
+    max-width: 100vw;
+    display: inline-block;
+    float: left;
+    // aesthetic only ----
+    position: relative;
+
+  }
+  &ses {
+    width: percentage($panelcount);
+    height: 100%;
+    display: block;
+    flex-direction: row;
+  }
+}
+.scrollmagic-pin-spacer{
+  padding-left: 100px;
+}

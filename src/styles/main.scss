@@ -1,0 +1,16 @@
+@import "variables/variables";
+@import "base/normalize";
+@import "base/grid-system";
+@import "base/web-font";
+@import "plugins/plugins";
+@import "mixin/mixin";
+@import "components/components";
+@import 'form/form';
+@import "layouts/layouts";
+@import "helpers/helpers";
+
+//vendor
+@import "custom/custom"; //custom styles
+@import "https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.css"; //vendor styles
+
+@import "../blocks/blocks";

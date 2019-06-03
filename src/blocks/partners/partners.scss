@@ -1,0 +1,16 @@
+.partners{
+  height: 100vh;
+  position: relative;
+  background: url("/img/global/section_bg.webp")no-repeat bottom left;
+  background-size: cover;
+  overflow: hidden;
+}
+#particlesPartners{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
