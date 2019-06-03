@@ -1,6 +1,9 @@
 .blog {
-  background: url('/img/sprites/svg-sprite.svg#blog-bg') no-repeat left top fixed;
-  background-size: 105%;
+  background: url('/img/sprites/svg-sprite.svg#blog-bg') no-repeat center top;
+  background-size: 110%;
   margin-bottom: 0 ;
-  padding: 6% 4%;
+  height: 100vh;
+  .container-fluid{
+    padding: 4%;
+  }
 }

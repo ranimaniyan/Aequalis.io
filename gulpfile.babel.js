@@ -98,9 +98,9 @@ webpackConfig.devtool = production ? false : "cheap-eval-source-map";
 
 export const server = () => {
 	browsersync.init({
-		port: 3030,
+		port: 3000,
 		socket: {
-			domain: '127.0.0.1:3030'
+			domain: '127.0.0.1:3000'
 		},
 		server: "./dist/",
 		tunnel: false,
