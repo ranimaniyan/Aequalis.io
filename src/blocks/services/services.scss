@@ -7,4 +7,38 @@
     display: flex;
     align-items: center;
   }
+  @media (max-width: 768px) {
+    .box-padd{
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      .row{
+        transform: rotate(-10deg);
+      }
+      .box{
+        transform: rotate(10deg);
+      }
+      .row:first-child{
+        flex: 0 0 75%;
+        max-width: 75%;
+        margin: 0 auto 4rem ;
+        justify-content: space-between;
+        .col-3:first-child{
+          display: none;
+        }
+        .txt-right{
+          padding: 0;
+        }
+      }
+    }
+    .box{
+      padding: 10px;
+    }
+  }
+  @media (max-width: 520px) {
+    .box-padd .row:first-child{
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
 }
