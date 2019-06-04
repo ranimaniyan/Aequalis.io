@@ -6,4 +6,76 @@
   .container-fluid{
     padding: 4%;
   }
+  @media (max-width: 1199.98px){
+    //background-size: cover;
+    position: relative;
+    .col-6{
+      position: static;
+    }
+    .Blog-Chain{
+      position: absolute;
+      top: 15px;
+    }
+    .what-do h4{
+      position: absolute;
+      top: -70px;
+      margin: 0;
+    }
+    .what-do{
+      bottom: 0;
+    }
+    &-row{
+      padding-top: 100px;
+      flex-wrap: nowrap;
+      overflow: auto;
+    }
+    &-left{
+
+    }
+    &-right{
+      flex: 0 0 100%;
+      max-width: inherit;
+      min-width: 100%;
+      > .row{
+        flex-wrap: nowrap;
+      }
+      > .row > .col-6{
+        flex-direction: row;
+        display: flex;
+        padding: 0;
+        a {
+          max-width: 50%;
+          padding: 0 15px;
+        }
+      }
+    }
+    .card2{
+      min-height: 400px;
+    }
+  }
+  @media (max-width: 992px){
+    background-size: cover;
+    &-left{
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+    &-right{
+      > .row > .col-6{
+        flex: 0 0 75%;
+        max-width: 75%;
+      }
+    }
+  }
+  @media (max-width: 768px){
+    &-left{
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    &-right{
+      > .row > .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
 }
