@@ -1,0 +1,42 @@
+.contact{
+  @media (max-width: 768px){
+    padding-bottom: 70px;
+    margin-bottom: 0;
+    .max-width1{
+      max-width: 100%;
+      padding: 15px;
+      margin: 0;
+    }
+    .space{height: 100%;}
+    .clip{position: static;}
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      padding: 15px 0;
+      bottom: -90px;
+      background: url("../img/global/contact-footer-bg.webp");
+      min-height: 70px;
+      left: 0;
+      z-index: 20;
+      &>.row{
+        max-width: 60% ;
+        margin: 0 auto;
+      }
+      .svg{
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+      }
+    }
+    .contact,
+    .bottom-space{
+      margin-bottom: 15px;
+    }
+    .bg-overlay{
+      min-height: 50%;
+    }
+  }
+}
