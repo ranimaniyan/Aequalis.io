@@ -6,4 +6,36 @@
   top: 0;
   left: 0;
   z-index: -1;
+  @media (max-width: 1199.98px) {
+    display: none;
+  }
+}
+.home{
+  .builder img{
+    display: none;
+  }
+  @media (max-width: 1199.98px) {
+    background: #06154d;
+    &-left,
+    &-right{
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      flex: 0 0 100%;
+      padding: 0;
+    }
+    .builder{
+      display: block;
+      background: none;
+      img{
+        display: block;
+        width: 100%;
+      }
+      //background-size: contain;
+    }
+    &-right{
+      padding: 10vh;
+      text-align: center;
+    }
+  }
 }
