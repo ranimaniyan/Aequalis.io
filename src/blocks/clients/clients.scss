@@ -2,4 +2,104 @@
   height: 100vh;
   background: url('../img/global/part_bg.webp') no-repeat center;
   background-size: cover;
+  @media (max-width: 768px) {
+    .client-content{
+      display: none;
+    }
+    .clients-list.row{
+      position: relative;
+      padding: 20px;
+      height: 600px;
+      margin-bottom: 50px;
+    }
+    .divTableCell .client-box{
+      display: block;
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      &.client-box2{
+        top: 120px;
+        margin-left: -120px;
+      }
+      &.client-box3{
+        left: auto;
+        right: 50%;
+        top: 120px;
+        margin-right: -120px;
+        transform: translateX(50%);
+      }
+      &.client-box4{
+        top: 240px;
+        margin-left: -240px;
+      }
+      &.client-box5{
+        top: 240px;
+        margin-left: 0px;
+      }
+      &.client-box6{
+        left: auto;
+        right: 50%;
+        top: 240px;
+        margin-right: -240px;
+        transform: translateX(50%);
+      }
+      &.client-box7{
+        top: 360px;
+        margin-left: -120px;
+      }
+      &.client-box8{
+        top: 360px;
+        left: auto;
+        right: 50%;
+        margin-right: -120px;
+        transform: translateX(50%)
+      }
+      &.client-box9{
+        top: 480px;
+        margin-left: 0px;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .clients-list.row{
+      height: 400px;
+    }
+    .divTableCell .client-box{
+      width: 80px;
+      height: 80px;
+      &.client-box2{
+        top: 80px;
+        margin-left: -80px;
+      }
+      &.client-box3{
+        top: 80px;
+        margin-right: -80px;
+      }
+      &.client-box4{
+        top: 160px;
+        margin-left: -160px;
+      }
+      &.client-box5{
+        top: 160px;
+      }
+      &.client-box6{
+        top: 160px;
+        margin-right: -160px;
+      }
+      &.client-box7{
+        top: 240px;
+        margin-left: -80px;
+      }
+      &.client-box8{
+        top: 240px;
+        margin-right: -80px;
+      }
+      &.client-box9{
+        top: 320px;
+      }
+    }
+  }
 }
