@@ -7,3 +7,23 @@
   left: 0;
   z-index: -1;
 }
+.comming{
+  @media (max-width: 992px){
+    .space{
+      height: 100%;
+    }
+    #particlesComming{
+      display: none;
+    }
+    .contact-content{
+      margin: 15px auto;
+      background: rgba(#000, .4);
+      .white-bold p{
+        margin-bottom: 10px;
+      }
+      .white-bold div:last-child{
+        margin-top: 0 !important;
+      }
+    }
+  }
+}
