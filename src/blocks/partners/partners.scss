@@ -4,6 +4,21 @@
   background: url("/img/global/section_bg.webp")no-repeat bottom left;
   background-size: cover;
   overflow: hidden;
+  @media (max-width: 992px) {
+    &-left,
+    &-right{
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .career1{
+      padding: 10% 43px;
+    }
+    .partner::before,
+    .alone:after{
+      height: 200px;
+      width: 200px;
+    }
+  }
 }
 #particlesPartners{
   display: block;
