@@ -7,4 +7,67 @@
     left: 0;
     bottom: 0;
   }
+  @media (max-width: 768px) {
+    .video .svg{
+      max-width: 60px;
+    }
+    .career{
+      padding-bottom: 10%;
+      position: relative;
+      z-index: 10;
+      &:before{
+        content: "";
+        display: block;
+        width: 420px;
+        height: 300px;
+        position: absolute;
+        background: url("../img/global/video.webp") no-repeat center;
+        background-size: contain;
+        left: 50%;
+        bottom: -50%;
+        transform: translateX(-50%);
+      }
+    }
+    .space{
+      height: 100%;
+      padding: 0;
+      margin: 0 15px;
+    }
+    .lazy.img1{
+      display: none;
+    }
+    .video-model{
+      top: 50%;
+      z-index: 11;
+    }
+    .about-uscontent{
+      padding: 0;
+      .col-md-7{
+        padding: 150px 0 0;
+        border: 0;
+        background: rgba(#E9E9E9,.85);
+      }
+      .col-3{
+        padding: 30px;
+        span{
+          font-size: 24px;
+        }
+      }
+      .row{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .alx-text-center{
+        margin-bottom: 100px;
+      }
+    }
+    .nav{
+      width: 75%;
+    }
+  }
+  @media (max-width: 768px) {
+    .nav{
+      width: 100%;
+    }
+  }
 }
