@@ -10,4 +10,31 @@
     right: 5%;
     bottom: -40px;
   }
+  @media (max-width: 1199.98px){
+    background-position: top right -40px;
+    min-height: 600px;
+    overflow: hidden;
+    .careers-right{
+      position: relative;
+      margin-left: auto;
+      bottom: -20px;
+    }
+    .navbar-nav.footer1{
+      background: #020f3e;
+      padding: 30px 40px;
+      bottom: 0;
+      margin: 0;
+      border-top-right-radius: 42px;
+    }
+    .right{
+      display: none;
+    }
+  }
+  @media (max-width: 500px){
+    .navbar-nav.footer1{
+      position: absolute;
+      padding: 30px 10px;
+      .backcode{padding-right: 10px;}
+    }
+  }
 }
