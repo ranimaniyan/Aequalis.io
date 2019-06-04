@@ -1,3 +1,62 @@
 .industries {
   background-image: url('../img/sprites/svg-sprite.svg#industry-bg') !important;
+  &-col{
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  @media (max-width: 1199.98px) {
+    padding: 15px;
+    &-col{
+      flex: 0 0 50%;
+      max-width: 100%;
+      min-width: 50%;
+      display: flex;
+      flex-direction: row;
+      a{
+        min-width: 50%;
+        height: 400px;
+        padding: 15px;
+
+      }
+      .industries-descr{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        width: 100%;
+      }
+    }
+    &-row{
+      padding-top: 200px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      min-width: 100%;
+      overflow-x: scroll;
+      padding-bottom: 50px;
+    }
+    .alx-isotope-item{
+      height: 100%;
+      border-radius: 5px;
+      .alx-portfolio-item{
+        height: 80%;
+      }
+    }
+    .alx-portfolio-item__style1 .alx-portfolio-item-details{
+      opacity: 1;
+      height: 100%;
+      h4{
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+      }
+      &:hover h4{
+        -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        transform: translateY(50%);
+      }
+    }
+    .alx-portfolio-item-image > div{
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }
