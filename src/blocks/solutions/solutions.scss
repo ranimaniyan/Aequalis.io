@@ -4,7 +4,6 @@
    background: url("../img/global/sollution_bg.webp") no-repeat center ;
    background-size: cover;
  }
-
   .card-list{
     display: flex;
     flex-direction: row;
@@ -41,6 +40,55 @@
         background-repeat: no-repeat;
         background-size: 100%;
       }
+    }
+  }
+  @media (max-width: 1199.98px) {
+    & > .row{
+      flex-direction: column;
+    }
+    &-left.col-4,
+    &-right.col-8{
+      width: 100%;
+      flex: 0 0 100%;
+      min-width: 100%;
+    }
+    .card-list{
+      flex-wrap: nowrap;
+      padding: 15px;
+      min-width: 100%;
+      width: auto;
+      overflow-x: scroll;
+      a{
+        flex: 0 0 25%;
+        min-width: 25%;
+      }
+    }
+    .spic{
+      display: flex;
+      flex-direction: column;
+      position: static;
+      max-width: 100%;
+      text-align: center;
+      min-height: 400px;
+      padding: 10%;
+    }
+  }
+  @media (max-width: 992px) {
+    .card-list a {
+      flex: 0 0 33.33333%;
+      min-width: 33.33333%;
+    }
+  }
+  @media (max-width: 768px) {
+    .card-list a {
+      flex: 0 0 50%;
+      min-width: 50%;
+    }
+  }
+  @media (max-width: 520px) {
+    .card-list a {
+      flex: 0 0 100%;
+      min-width: 100%;
     }
   }
 }
