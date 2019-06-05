@@ -13,6 +13,7 @@ $panelcount: 11; // set # of panels/sections here
   overflow: hidden !important;
   perspective: 1000 !important;
   padding-left: 100px;
+  position: inherit!important;
   @media (max-width: 1199.98px) {
     padding-left: 0;
   }

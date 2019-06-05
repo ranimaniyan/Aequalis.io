@@ -173,7 +173,7 @@ export const views = () => gulp.src(paths.views.src)
 	.on("end", browsersync.reload);
 
 export const styles = () => gulp.src(paths.styles.src)
-	.pipe(gulpif(!production, sourcemaps.init()))
+	// .pipe(gulpif(!production, sourcemaps.init()))
 	.pipe(plumber())
 	.pipe(sass())
 	.pipe(postcss([

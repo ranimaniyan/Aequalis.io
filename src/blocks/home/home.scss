@@ -16,6 +16,7 @@
   }
   @media (max-width: 1199.98px) {
     background: #06154d;
+
     &-left,
     &-right{
       height: 100%;
@@ -27,6 +28,7 @@
     .builder{
       display: block;
       background: none;
+      height: 100%;
       img{
         display: block;
         width: 100%;
