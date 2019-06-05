@@ -261,7 +261,7 @@ export const images = () => gulp.src(paths.images.src)
 		imagemin.svgo({
 			plugins: [
 				{ removeViewBox: false },
-				{ removeUnusedNS: false },
+				{ removeUnusedNS: true },
 				{ removeUselessStrokeAndFill: false },
 				{ cleanupIDs: false },
 				{ removeComments: true },
@@ -280,8 +280,8 @@ export const images = () => gulp.src(paths.images.src)
 export const webpimages = () => gulp.src(paths.webp.src)
 	.pipe(webp(gulpif(production, imageminWebp({
 		lossless: true,
-		quality: 90,
-		alphaQuality: 90
+		quality: 60,
+		alphaQuality: 60
 	}))))
 	.pipe(gulp.dest(paths.webp.dist))
 	.pipe(debug({

@@ -1,9 +1,9 @@
 .solutions{
- &-left{
-   height: 100vh;
-   background: url("../img/global/sollution_bg.webp") no-repeat center ;
-   background-size: cover;
- }
+   &-left{
+     height: 100vh;
+     background: url("../img/global/sollution_bg.webp") no-repeat center ;
+     background-size: cover;
+   }
   .card-list{
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@
         bottom: -12px;
         transform: scaleX(-1);
         background-blend-mode: hue;
-        background-image: url("../img/sprites/svg-sprite.svg#Tryangle-2");
+        background-image: url('../img/sprites/svg-sprite.svg#Tryangle-2');
         background-position: left bottom;
         background-repeat: no-repeat;
         background-size: 100%;

@@ -752,7 +752,7 @@ div.itemAuthorBlock p {
 }
 
 .solu {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg');
+  background-image: url('#industry-bg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -820,7 +820,7 @@ div.itemAuthorBlock p {
 }
 
 .about-bg {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg');
+  background-image: url('#industry-bg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -10525,7 +10525,6 @@ legend.scheduler-border {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 0;
-  /*background: url('../img/sprites/svg-sprite.svg#blog-bg');*/
 
 }
 
@@ -11741,7 +11740,7 @@ svg {
 
 .partner::before {
   content: "";
-  background-image: url('../img/sprites/svg-sprite.svg#circle-bg');
+  background-image: url('#circle-bg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 103px;
@@ -11753,7 +11752,7 @@ svg {
 
 .alone::after {
   content: '';
-  background-image: url('../img/sprites/svg-sprite.svg#circle-bg');
+  background-image: url('#circle-bg');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -12462,7 +12461,7 @@ svg {
 }
 
 .mobile .page2-bg {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg') !important;
+  background-image: url('#industry-bg') !important;
 }
 
 .mobile .industries-block {
@@ -12476,7 +12475,7 @@ svg {
 }
 
 .mobile .page3-bg {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg') !important;
+  background-image: url('#industry-bg') !important;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12575,7 +12574,7 @@ svg {
 }
 
 .mobile .bg-image {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg') !important;
+  background-image: url('#industry-bg') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -12636,7 +12635,7 @@ svg {
 }
 
 .mobile .career-flip-img {
-  background-image: url('../img/sprites/svg-sprite.svg#carear-bg');
+  background-image: url('#carear-bg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12648,7 +12647,7 @@ svg {
 }
 
 .mobile .ind-bg {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg');
+  background-image: url('#industry-bg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12658,7 +12657,7 @@ svg {
 }
 
 .mobile .ind-bg1 {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg');
+  background-image: url('#industry-bg');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -12701,7 +12700,7 @@ svg {
 }
 
 .ind-bg-img {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg');
+  background-image: url('#industry-bg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12730,7 +12729,7 @@ svg {
 }
 
 .sidebar-bgk {
-  background-image: url('../img/sprites/svg-sprite.svg#menu_bg') !important;
+  background-image: url('#menu_bg') !important;
 }
 
 .w-250-k {
@@ -12768,7 +12767,7 @@ svg {
 }
 
 .industry-bgimg {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg') !important;
+  background-image: url('#industry-bg') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;;
 }
@@ -12796,7 +12795,7 @@ svg {
 }
 
 .career-bgk {
-  background-image: url('../img/sprites/svg-sprite.svg#carear-bg') !important;
+  background-image: url('#carear-bg') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -12812,7 +12811,7 @@ svg {
 }
 
 .ind-img {
-  background-image: url('../img/sprites/svg-sprite.svg#industry-bg') !important;
+  background-image: url('#industry-bg') !important;
   background-size: cover;
   background-repeat: no-repeat
 }
