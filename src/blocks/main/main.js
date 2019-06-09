@@ -3,7 +3,8 @@ window.jQuery = $;
 window.$ = $;
 import Pageable from 'pageable'
 $(window).on('load', function() {
-	new Pageable("#slideContainer", {
+	if($( window ).width() > 1199) {
+		new Pageable("#slideContainer", {
 		childSelector: "[data-anchor]", // CSS3 selector string for the pages
 		anchors: ['home', 'industries', 'solutions', 'services', 'partners', 'client', 'about-us', 'careers', 'blog', 'contact', 'coming-soon'], // define the page anchors
 		pips: false, // display the pips
@@ -45,4 +46,7 @@ $(window).on('load', function() {
 			// do something when scrolling ends
 		},
 	});
+	}else {
+		new Pageable("#slideContainer").destroy();
+	}
 });

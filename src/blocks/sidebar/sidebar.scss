@@ -1,5 +1,22 @@
 .alx-aside-sidebar{
   @media (max-width: 1199.98px) {
-    display: none;
+    width: 50%;
+    left: -50%;
+  }
+  @media (max-width: 992px) {
+    width: 75%;
+    left: -75%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    left: -100%;
+  }
+}
+
+.alx-aside-sidebar__openoverlay{
+  @media (max-width: 1199.98px) {
+    .alx-aside-sidebar{
+      left: 0;
+    }
   }
 }
