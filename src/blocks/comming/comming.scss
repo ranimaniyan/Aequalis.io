@@ -9,6 +9,34 @@
 }
 .comming{
   //padding-left: 100px;
+  .btn{
+    color: #fff !important;
+    position: relative;
+    .arrow-left,
+    .arrow-right{
+      position: absolute;
+    }
+  }
+  .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right:5px solid white;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   @media (max-width: 1199px){
     padding-left: 0;
   }
