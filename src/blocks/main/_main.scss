@@ -67,8 +67,14 @@ $contWidth: 100% * $panelcount;
     height: 100% !important;
   }
 }
-.pg-container{
-  padding-left: 100px;
+.alx-scroll-wrap{
+  //padding-left: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.pg-wrapper.pg-horizontal{
+  //padding-left: 100px !important;
 }
 #slideContainer {
   width: $contWidth !important; /* to contain 11 sliders, each with 100% of window width */
@@ -80,12 +86,12 @@ $contWidth: 100% * $panelcount;
 }
 .section {
   height: 100vh !important;
-  width: 100vw !important; /* relative to parent -> 100% of 1100% = 100% of window width */
+  //width: 100vw !important; /* relative to parent -> 100% of 1100% = 100% of window width */
   //width: 100%;
   float: left;
   display: inline-block;
   overflow: hidden;
-  //padding-left: 100px;
+  padding-left: 100px;
   @media (max-width: 1199.98px) {
     width: 100%;
     height: 100%  ;

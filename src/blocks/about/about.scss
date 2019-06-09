@@ -1,15 +1,20 @@
 .about{
-  height: 100vh;
+  height: 100% !important;
   position: relative;
-  padding-left: 100px;
+  //padding-left: 0;
   .nav{
     position: absolute;
     width: 50%;
     left: 0;
+    left: 100px;
     bottom: 0;
+    z-index: -1;
   }
   @media (max-width: 1199px) {
     padding-left: 0;
+    .nav{
+      left: 0;
+    }
   }
   @media (max-width: 768px) {
     .video .svg{
@@ -46,6 +51,8 @@
     }
     .about-uscontent{
       padding: 0;
+      position: relative;
+      z-index: 20;
       .col-md-7{
         padding: 150px 0 0;
         border: 0;
