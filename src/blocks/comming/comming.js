@@ -10,3 +10,4 @@ new Particle(document.getElementById('particlesComming'), {
 	directionX: 'center',
 	parallax: false
 });
+
