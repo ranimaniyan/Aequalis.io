@@ -4,6 +4,10 @@
   background: url("../img/global/section_bg.webp")no-repeat bottom left;
   background-size: cover;
   overflow: hidden;
+  padding-left: 100px;
+  @media (max-width: 1199px) {
+    padding-left: 0;
+  }
   @media (max-width: 992px) {
     &-left,
     &-right{

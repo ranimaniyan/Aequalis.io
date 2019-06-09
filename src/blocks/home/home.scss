@@ -11,12 +11,13 @@
   }
 }
 .home{
+  padding-left: 100px;
   .builder img{
     display: none;
   }
   @media (max-width: 1199.98px) {
     background: #06154d;
-
+    padding-left: 0;
     &-left,
     &-right{
       height: 100%;

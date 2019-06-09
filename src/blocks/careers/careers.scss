@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-left: 100px;
   &-right{
     position: absolute;
     width: 50%;
@@ -11,6 +12,7 @@
     bottom: -40px;
   }
   @media (max-width: 1199.98px){
+    padding-left: 0;
     background-position: top right -40px;
     min-height: 600px;
     overflow: hidden;

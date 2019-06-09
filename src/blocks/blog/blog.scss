@@ -3,10 +3,12 @@
   background-size: 110%;
   margin-bottom: 0 ;
   height: 100vh;
+  padding-left: 100px;
   .container-fluid{
     padding: 4%;
   }
   @media (max-width: 1199.98px){
+    padding-left: 0;
     //background-size: cover;
     position: relative;
     .col-6{

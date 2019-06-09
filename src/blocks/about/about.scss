@@ -1,11 +1,15 @@
 .about{
   height: 100vh;
   position: relative;
+  padding-left: 100px;
   .nav{
     position: absolute;
     width: 50%;
     left: 0;
     bottom: 0;
+  }
+  @media (max-width: 1199px) {
+    padding-left: 0;
   }
   @media (max-width: 768px) {
     .video .svg{
