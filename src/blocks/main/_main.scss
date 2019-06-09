@@ -1,12 +1,11 @@
-body,
-html {
-  //height: 100%
+body {
+  scroll-behavior: smooth;
 }
 
 // ---------- SCROLLING STYLES ---------- //
 
 $panelcount: 11; // set # of panels/sections here
-
+$contWidth: 100% * $panelcount;
 //.wrapper{
 //  width: 100% !important;
 //  height: 100% !important;
@@ -52,7 +51,11 @@ $panelcount: 11; // set # of panels/sections here
   }
 }
 .scrollmagic-pin-spacer{
+  //padding-left: 100px;
+}
+.alx-scroll-wrap{
   padding-left: 100px;
+  position: relative;
 }
 #pinContainer {
   width: 100% !important;
@@ -60,23 +63,27 @@ $panelcount: 11; // set # of panels/sections here
   overflow: hidden;
   -webkit-perspective: 1000;
   perspective: 1000;
-  padding-left: 100px;
+  //padding-left: 100px;
   @media (max-width: 1199.98px) {
     padding-left: 0;
     height: 100% !important;
   }
 }
 #slideContainer {
-  width: $panelcount * 100%; /* to contain 11 sliders, each with 100% of window width */
+  //width: $contWidth; /* to contain 11 sliders, each with 100% of window width */
+  width: 100%;
   height: 100%;
   @media (max-width: 1199.98px) {
     width: 100%;
   }
 }
 .section {
-  height: 100%;
-  width: 100%/$panelcount; /* relative to parent -> 100% of 1100% = 100% of window width */
+  height: 100vh !important;
+  //width: 100vw; /* relative to parent -> 100% of 1100% = 100% of window width */
+  width: 100%;
   float: left;
+  display: inline-block;
+  overflow: hidden;
   @media (max-width: 1199.98px) {
     width: 100%;
     height: 100%  ;
