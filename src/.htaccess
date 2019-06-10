@@ -174,7 +174,7 @@ AddType text/vtt .vtt
 <IfModule mod_headers.c>
 	# 5 min - HTML
 	<FilesMatch "\.(html|htm)$">
-		Header set Cache-Control "max-age=60"
+		Header set Cache-Control "max-age=z"
 	</FilesMatch>
 
 	# 1 hour - CSS

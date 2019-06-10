@@ -57,24 +57,5 @@ $(window).on('load', function() {
 		threshold: 0
 	});
 	console.log('log');
-	function replaceSVG() {
-		const matches = document.querySelectorAll('.svg');
-		for (i = 0; i < matches.length; i++) {
-			const el = matches[i];
-			const wrapper = document.createElement('span');
-			wrapper.style.width = el.offsetWidth+"px";
-			wrapper.style.height = el.offsetHeight+"px";
-			wrapper.className = "replaced";
-			const newEl = document.createElement('img');
-			newEl.src = el.getAttribute('data-src');
-			newEl.onload = function() {
-				this.className = "fadein";
-			};
-			wrapper.appendChild(newEl);
-			el.parentNode.replaceChild(wrapper, el);
-		}
-
-	}
-	replaceSVG();
 });
 

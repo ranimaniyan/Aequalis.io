@@ -84,8 +84,8 @@ const webpackConfig = require("./webpack.config.js"),
 			watch: "./src/fonts/**/*.{ttf,otf,woff,woff2}"
 		},
 		favicons: {
-			src: "./src/img/favicon.{jpg,jpeg,png,gif}",
-			dist: "./dist/img/favicons/",
+			src: "./src/img/favicons/favicon.{ico,jpg,jpeg,png,gif}",
+			dist: "./dist/",
 		},
 		server_config: {
 			src: "./src/.htaccess",
@@ -295,19 +295,19 @@ export const fonts = () => gulp.src(paths.fonts.src)
 	}));
 
 export const favs = () => gulp.src(paths.favicons.src)
-	.pipe(favicons({
-		icons: {
-			appleIcon: true,
-			favicons: true,
-			online: false,
-			appleStartup: false,
-			android: false,
-			firefox: false,
-			yandex: false,
-			windows: false,
-			coast: false
-		}
-	}))
+	// .pipe(favicons({
+	// 	icons: {
+	// 		appleIcon: true,
+	// 		favicons: true,
+	// 		online: false,
+	// 		appleStartup: false,
+	// 		android: false,
+	// 		firefox: false,
+	// 		yandex: false,
+	// 		windows: false,
+	// 		coast: false
+	// 	}
+	// }))
 	.pipe(gulp.dest(paths.favicons.dist))
 	.pipe(debug({
 		"title": "Favicons"
