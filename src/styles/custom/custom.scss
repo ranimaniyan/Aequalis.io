@@ -898,8 +898,11 @@ div.itemAuthorBlock p {
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
+@font-face {
+  font-family: 'Poppins';
+  font-display: auto;
+  src: local('Poppins'), url(https://fonts.googleapis.com/css?family=Poppins) format('woff2');
+}
 
 @font-face {
   font-family: 'MyWebFont';
