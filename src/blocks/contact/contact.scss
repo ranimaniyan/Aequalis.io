@@ -1,4 +1,5 @@
 .contact{
+
   @media (max-width: 768px){
     padding-bottom: 70px;
     margin-bottom: 0;
@@ -39,5 +40,10 @@
     .bg-overlay{
       min-height: 50%;
     }
+
   }
+}
+.icon-size{
+  height: 25px !important;
+  width: 25px !important;
 }
