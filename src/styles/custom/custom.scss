@@ -7796,6 +7796,7 @@ body::-webkit-scrollbar-thumb {
 .footer li {
   font-size: 17px !important;
   color: white !important;
+  cursor: default;
 }
 
 .footer1 li {
@@ -7826,6 +7827,7 @@ body input, body textarea {
   padding-right: 20px;
   border-right: 2px solid #eeeeee;
   color: #ffffff;
+  cursor: default;
 }
 
 .footer1 .backcode {
